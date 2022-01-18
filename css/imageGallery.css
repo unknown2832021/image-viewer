@@ -1,0 +1,48 @@
+.container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+  height: 96vh;
+  overflow: hidden;
+}
+.noor img {
+  width: 400px;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.box {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+}
+.close {
+  padding: 10px;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+}
+.close:hover {
+  background: red;
+  color: white;
+}
+
+.bodyImage {
+  width: 700px;
+  justify-content: center;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
